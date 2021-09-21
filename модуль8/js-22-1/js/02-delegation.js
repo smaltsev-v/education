@@ -6,14 +6,16 @@
 
 const container = document.querySelector('.js-container');
 
-container.addEventListener('click', onClick);
+container.addEventListener('click',onClick)
 
 function onClick(evt) {
-  if (evt.target.nodeName !== 'BUTTON') {
+  if (evt.target.nodeName !=='BUTTON') {
     return;
   }
 
   console.log(evt.target.textContent);
+
+  
 }
 
 /*
